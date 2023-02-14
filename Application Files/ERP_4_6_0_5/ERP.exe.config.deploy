@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ERP.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <connectionStrings>
+    <add name="ERP.Properties.Settings.DashBordConnectionString" connectionString="Dsn=MyDataBase;uid=sa;app=Microsoft® Visual Studio® 2012;wsid=BLUEGOD;database=Waeaving;mars_connection=Yes;pwd=best" providerName="System.Data.Odbc" />
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  <runtime>
+    <generatePublisherEvidence enabled="false" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Extensions" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.2.29.0" newVersion="2.2.29.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.29.0" newVersion="4.2.29.0" />
+      </dependentAssembly>
+      <!--<dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1  3.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>-->
+      <!--<dependentAssembly>
+        <assemblyIdentity name="system.data.datasetextensions" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="3.5.0.0" />
+      </dependentAssembly>-->
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <appSettings>
+    <!--<add key="dbCon" value="data source=.\sqlexpress; initial catalog=waeaving;integrated security=true;enlist=false"/>
+    <add key="ServerName" value=".\sqlexpress"/>
+    <add key="server" value=".\sqlexpress"/> 
+    <add key="DBPath" value="E:\ZEELEPR\DATA"/>-->
+    <add key="dbCon" value="Data Source=.\r2; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\r2" />
+    <add key="server" value=".\r2" />
+    <add key="DBPath" value="E:\ZEELEPR\R2DATA" />
+    <!--<add key="dbCon" value="Data Source=.; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value="." />
+    <add key="server" value="." /> 
+    <add key="DBPath" value="e:\ZEELEPR\KDATA" />-->
+    <!--<add key="dbCon" value="Data Source=.\sql2008r2; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\sql2008r2" />
+    <add key="server" value=".\sql2008r2" /> 
+    <add key="DBPath" value="D:\ZEELEPR\DATA2008"/>-->
+    <!--<add key="dbCon" value="Data Source=.\sql2005; Initial Catalog=w1;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\sql2005" />
+    <add key="server" value=".\sql2005" /> 
+    <add key="DBPath" value="D:\ZEELEPR\DATA2005" />-->
+    <!--Wevlon  ewb:Siddharthw_API_SID  Admin@123   sp:SWPL$2120$# -->
+    <!--<add key="dbCon" value="Data Source=150.107.188.226,52534\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="150.107.188.226,52534\SQLEXPRESS" />
+    <add key="server" value="150.107.188.226,52534\SQLEXPRESS" />-->
+    <!--SANT KRUPA-->
+    <!--<add key="dbCon" value="Data Source=103.236.152.57,1433\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="103.236.152.57,1433\SQLEXPRESS" />
+    <add key="server" value="103.236.152.57,1433\SQLEXPRESS" />-->
+    <!--Micro-->
+    <!--<add key="dbCon" value="Data Source=116.72.19.21,1433\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="116.72.19.21,1433\SQLEXPRESS" />
+    <add key="server" value="116.72.19.21,1433\SQLEXPRESS" />-->
+    <!--VASUDEV SYN-->
+    <!--<add key="dbCon" value="Data Source=123.253.13.189\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="123.253.13.189\SQLEXPRESS" />
+    <add key="server" value="123.253.13.189\SQLEXPRESS" />-->
+    <!--Mangalshree-->
+    <!--<add key="dbCon" value="Data Source=123.201.6.156\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="123.201.6.156\SQLEXPRESS" />
+    <add key="server" value="123.201.6.156\SQLEXPRESS" />-->
+    <!--<add key="dbCon" value="Data Source=103.206.139.180,1433\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="103.206.139.180,1433\SQLEXPRESS" />-->
+    <!--Roank-->
+    <!--<add key="dbCon" value="Data Source=150.107.188.210,1433;Initial Catalog=Waeaving;User ID=admin;Password=123"/>
+    <add key="ServerName" value="150.107.188.210,1433"/>
+    <add key="server" value="150.107.188.210,1433"/>-->
+    <!--Sai Satyam-->
+    <!--<add key="dbCon" value="Data Source=150.129.115.86,50086;Initial Catalog=Waeaving;User ID=sa;Password=best" />
+    <add key="ServerName" value="150.129.115.86,50086" />
+    <add key="server" value="150.129.115.86,50086" />-->
+    <!--Vru-->
+    <!--<add key="dbCon" value="Data Source=103.116.179.17,50080;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="103.116.179.17,50080" />
+    <add key="server" value="103.116.179.17,50080" />-->
+    <!--Mahakali Dyeing-->
+    <!--<add key="dbCon" value="Data Source=116.72.8.106\sqlexpress;Initial Catalog=Waeaving;User ID=sa;Password=best" />
+    <add key="ServerName" value="116.72.8.106\sqlexpress" />
+    <add key="server" value="116.72.8.106\sqlexpress" />-->
+    <!--Other-->
+    <!--<add key="dbCon" value="Data Source=219.91.133.98\SQLEXPRESS;Initial Catalog=Waeaving;User ID=admin;Password=123" />
+    <add key="ServerName" value="219.91.133.98\SQLEXPRESS" />-->
+    <!--<add key="dbCon" value="Data Source=103.217.85.217\sqlexpress;Initial Catalog=Waeaving;User ID=admin;Password=123"/>
+    <add key="ServerName" value="103.217.85.217\sqlexpress" />-->
+    <!--<add key="dbCon" value="Data Source=103.59.210.198,1433\sqlexpress;Initial Catalog=Waeaving;User ID=admin;Password=123"/>
+    <add key="ServerName" value="103.59.210.198,1433\sqlexpress" />-->
+    <!--<add key="dbCon" value="Data Source=27.54.190.14,1433\MYSQLEXPRESS;Initial Catalog=Waeaving;User ID=jjbStatic;Password=jjb"/> 
+    <add key="ServerName" value="27.54.190.14,1433\MYSQLEXPRESS" />-->
+    <!--<add key="dbCon" value="Data Source=202.179.80.79,1433\SQLEXPRESS;Initial Catalog=Waeaving;User ID=commit;Password=best"/> 
+    <add key="ServerName" value="202.179.80.79,1433\SQLEXPRESS" />-->
+    <!--<add key="dbCon" value="Data Source=43.248.32.166,1433\sqlexpress;Initial Catalog=Waeaving;User ID=admin;Password=12123"/>
+    <add key="ServerName" value="43.248.32.166,1433\sqlexpress" />-->
+    <add key="DisplayName" value="ZEEL INFOTECH" />
+    <add key="OtherPath" value="E:\All Project\ERP\ERP\bin\Debug\DATA\" />
+    <add key="Mark" value="Mark" />
+    <add key="doProcess" value="1" />
+    <add key="packing" value="0" />
+    <add key="EwbSandbox" value="1" />
+    <add key="DownloadPath" value="F:\milk management DB\Backup" />
+    <add key="backupWhenRestore" value="false" />
+    <add key="backupWhenClose" value="false" />
+    <add key="eInvoiceJsonReq" value="false" />
+    <add key="eWayBillJsonReq" value="false" />
+    <add key="eInvoiceAddress2Req" value="false" />
+    <add key="AppConString" value="SslMode=None;" />
+    <!--<add key="SyncApp" value="false" />-->
+    <!--<add key="AutoSyncMobAppData" value="false" />-->
+    <!--<add key="LKRG" value="LKRG" />-->
+    <!--<add key="NAS" value="false" />
+    <add key="NASDrive" value="Z:" />
+    <add key="NASShareIP" value="\\10.8.0.1\Unique" />-->
+    <!-- Weight Machin -->
+    <add key="Port" value="LPT1" />
+    <add key="Bits" value="9600" />
+    <add key="DataBits" value="8" />
+    <add key="Prefix" value="k" />
+    <add key="Postfix" value="k" />
+    <add key="decimalpoint" value="n" />
+    <add key="ReadTimeout" value="500" />
+    <!-- End Weight Machin -->
+    <!-- Connection Information -->
+    <add key="ChangOdbc" value="true" />
+    <!--<add key="server" value=".\sqlexpress" />-->
+    <add key="database" value="Waeaving" />
+    <add key="driverName" value="SQL Server Native Client 10.0" />
+    <add key="dsnName" value="MyDataBase" />
+    <add key="trustedConnection" value="false" />
+    <add key="UID" value="admin" />
+    <add key="UPassword" value="123" />
+    <!-- End Connection Information -->
+    <add key="ExcelCon" value="Provider=Microsoft.ACE.OLEDB.12.0;Extended Properties=Excel 12.0;" />
+    <!--<add key ="MilkCon" value="server=182.50.133.89:3306;database=milkmanagment_db;uid=milkuser;pwd=qLpd00#4;"/>-->
+    <!--<add key="dbMilk" value="SERVER=182.50.133.89;DATABASE=milkmanagment_db1;UID=milk;PASSWORD=Efl66_2r;" />-->
+    <!--<add key="MilkCon" value="Data Source=182.50.133.89:3306;Initial Catalog=MilkManagment_DB;uid=milkuser;pwd=qLpd00#4;Integrated Security=false;Max Pool Size=10;" />-->
+    <!--<add key="MilkRestoreAPI" value="http://192.168.10.10:8888/send?alert=restore&amp;id=Khushal" />-->
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="ClientSettingsProvider.ConnectionStringName" value="DefaultConnection" />
+  </appSettings>
+  <userSettings>
+    <ERP.Properties.Settings>
+      <setting name="GenerateColumns" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="AutoGenerateColume" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FactConsumpParty" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtGainPerc" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtRmOp" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtFOp" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="ItemLedgerMonthWise" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="EwayBillItemName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EwayBillItemDesc" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ItemDesignLedgerColorWise" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="osGadgetsallCopany" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MultyItemOrder" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MultyItemOrderYBillBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="GSTPayableAccount" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="FactoryAddress2" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsPatyList" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsBranch" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsStockTypeList" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PurProdpoySalBook" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PurProdpoyItemType" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="OrderGrayBalance" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="OrderGrayBalanceMarket" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="OrderMarketDesignColor" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="PurMultyItemOrderYBillBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="PurMultyItemOrderChlnBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ActStatus" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ActMessage" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ewbBalanceUpdate" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="APIBalance" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="APIUsage" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="MultyItemPurOrderSalOrderBalance" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ItemDesignColorStockCommonCompany" serializeAs="String">
+        <value>False</value>
+      </setting>
+    </ERP.Properties.Settings>
+  </userSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientWindowsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" connectionStringName="DefaultConnection" credentialsProvider="" />
+      </providers>
+    </membership>
+    <roleManager enabled="true" defaultProvider="ClientRoleProvider">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" connectionStringName="DefaultConnection" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <!--<entityFramework>
+    -->
+  <!--<providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>-->
+  <!--
+  </entityFramework>
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source = |SQL/CE|" />
+  </connectionStrings>
+<system.data>
+    <DbProviderFactories>
+      <remove invariant="MySql.Data.MySqlClient" />
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    </DbProviderFactories>
+  </system.data>-->
+</configuration>
