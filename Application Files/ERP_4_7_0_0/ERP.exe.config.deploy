@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ERP.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <!--<connectionStrings>
+    <add name="ERP.Properties.Settings.DashBordConnectionString"
+      connectionString="Dsn=MyDataBase;uid=sa;app=Microsoft® Visual Studio® 2012;wsid=BLUEGOD;database=Waeaving;mars_connection=Yes;pwd=best"
+      providerName="System.Data.Odbc" />
+  </connectionStrings>-->
+  <connectionStrings>
+    <add name="ERP.Properties.Settings.DashBordConnectionString" connectionString="Dsn=MyDataBase;uid=sa;app=Microsoft® Visual Studio® 2012;wsid=BLUEGOD;database=Waeaving;mars_connection=Yes;pwd=best" providerName="System.Data.Odbc" />
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  <runtime>
+    <generatePublisherEvidence enabled="false" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Extensions" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.2.29.0" newVersion="2.2.29.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.29.0" newVersion="4.2.29.0" />
+      </dependentAssembly>
+      <!--<dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1  3.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>-->
+      <!--<dependentAssembly>
+        <assemblyIdentity name="system.data.datasetextensions" publicKeyToken="b77a5c561934e089" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="3.5.0.0" />
+      </dependentAssembly>-->
+      <!--<dependentAssembly>
+			<assemblyIdentity name="System.IO.Compression" publicKeyToken="b77a5c561934e089" culture="neutral" />
+			<bindingRedirect oldVersion="0.0.0.0-4.2.0.0" newVersion="4.2.0.0" />
+		</dependentAssembly>-->
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.0" newVersion="4.0.0.0" />
+      </dependentAssembly>
+      <!--<dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>-->
+      <dependentAssembly>
+        <assemblyIdentity name="Syncfusion.Shared.Base" publicKeyToken="3d67ed1f87d44c89" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-20.4450.0.38" newVersion="20.4450.0.38" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Syncfusion.Shared.Windows" publicKeyToken="3d67ed1f87d44c89" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-20.4450.0.38" newVersion="20.4450.0.38" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <appSettings>
+    <!--<add key="dbCon" value="data source=.\sqlexpress; initial catalog=waeaving;integrated security=true;enlist=false"/>
+    <add key="ServerName" value=".\sqlexpress"/>
+    <add key="server" value=".\sqlexpress"/> 
+    <add key="DBPath" value="E:\ZEELEPR\DATA"/>-->
+    <add key="dbCon" value="Data Source=.\r2; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\r2" />
+    <add key="server" value=".\r2" />
+    <add key="DBPath" value="E:\ZEELEPR\R2DATA" />
+    <!--<add key="dbCon" value="Data Source=.\SQL2019; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\SQL2019" />
+    <add key="server" value=".\SQL2019" />
+    <add key="DBPath" value="E:\ZEELEPR\DATA2019" />-->
+    <!--<add key="dbCon" value="Data Source=.; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value="." />
+    <add key="server" value="." />  
+    <add key="DBPath" value="e:\ZEELEPR\KDATA" />-->
+    <!--<add key="dbCon" value="Data Source=.\sql2005; Initial Catalog=Waeaving;Integrated Security=True;Enlist=true;MultipleActiveResultSets=True;" />
+    <add key="ServerName" value=".\sql2005" />
+    <add key="server" value=".\sql2005" /> 
+    <add key="DBPath" value="E:\ZEELEPR\DATA" />-->
+    <add key="DisplayName" value="Zeel Infosys" />
+    <add key="OtherPath" value="E:\All Project\ERP\ERP\bin\Debug\DATA\" />
+    <add key="Mark" value="Mark" />
+    <add key="doProcess" value="1" />
+    <add key="packing" value="0" />
+    <add key="EwbSandbox" value="1" />
+    <add key="DownloadPath" value="F:\milk management DB\Backup" />
+    <add key="backupWhenRestore" value="false" />
+    <add key="backupWhenClose" value="false" />
+    <add key="eInvoiceJsonReq" value="true" />
+    <add key="eWayBillJsonReq" value="false" />
+    <add key="eInvoiceAddress2Req" value="false" />
+    <add key="AppConString" value="SslMode=None;" />
+    <add key="ZipBackup" value="true" />
+    <add key="SyncWhenClose" value="true" />
+    <add key="CreateParamsStyle" value="true" />
+    <!--Degital Certificate Setting-->
+    <add key="DegitalSignPath" value="E:\All Project\ERP\ERP\bin\Debug\Certificate\khushal.cer" />
+    <add key="DegitalSignPassword" value="" />
+    <add key="DegitalSignX" value="350" />
+    <add key="DegitalSignY" value="750" />
+    <!--<add key="SyncApp" value="false" />-->
+    <!--<add key="AutoSyncMobAppData" value="false" />-->
+    <!--<add key="LKRG" value="LKRG" />-->
+    <!--<add key="NAS" value="false" />
+    <add key="NASDrive" value="Z:" />
+    <add key="NASShareIP" value="\\10.8.0.1\Unique" />-->
+    <!-- Weight Machin -->
+    <add key="Port" value="LPT1" />
+    <add key="Bits" value="9600" />
+    <add key="DataBits" value="8" />
+    <add key="Prefix" value="k" />
+    <add key="Postfix" value="k" />
+    <add key="decimalpoint" value="n" />
+    <add key="ReadTimeout" value="500" />
+    <!-- End Weight Machin -->
+    <!-- Connection Information -->
+    <add key="ChangOdbc" value="true" />
+    <!--<add key="server" value=".\sqlexpress" />-->
+    <add key="database" value="Waeaving" />
+    <add key="driverName" value="SQL Server Native Client 10.0" />
+    <add key="dsnName" value="MyDataBase" />
+    <add key="trustedConnection" value="false" />
+    <add key="UID" value="admin" />
+    <add key="UPassword" value="123" />
+    <!--<add key="enc" value="true" />-->
+    <!-- End Connection Information -->
+    <!--<add key="ExcelCon" value="Provider=Microsoft.ACE.OLEDB.12.0;Extended Properties=Excel 12.0;" />-->
+    <!--<add key ="MilkCon" value="server=182.50.133.89:3306;database=milkmanagment_db;uid=milkuser;pwd=qLpd00#4;"/>-->
+    <!--<add key="dbMilk" value="SERVER=182.50.133.89;DATABASE=milkmanagment_db1;UID=milk;PASSWORD=Efl66_2r;" />-->
+    <!--<add key="MilkCon" value="Data Source=182.50.133.89:3306;Initial Catalog=MilkManagment_DB;uid=milkuser;pwd=qLpd00#4;Integrated Security=false;Max Pool Size=10;" />-->
+    <!--<add key="MilkRestoreAPI" value="http://192.168.10.10:8888/send?alert=restore&amp;id=Khushal" />-->
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="ClientSettingsProvider.ConnectionStringName" value="DefaultConnection" />
+  </appSettings>
+  <userSettings>
+    <ERP.Properties.Settings>
+      <setting name="GenerateColumns" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="AutoGenerateColume" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FactConsumpParty" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtGainPerc" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtRmOp" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="txtFOp" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="ItemLedgerMonthWise" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="EwayBillItemName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EwayBillItemDesc" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ItemDesignLedgerColorWise" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="osGadgetsallCopany" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MultyItemOrder" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MultyItemOrderYBillBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="GSTPayableAccount" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="FactoryAddress2" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsPatyList" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsBranch" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="ItemWiseCommonYarnConsumpKgsStockTypeList" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PurProdpoySalBook" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="PurProdpoyItemType" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="OrderGrayBalance" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="OrderGrayBalanceMarket" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="OrderMarketDesignColor" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="PurMultyItemOrderYBillBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="PurMultyItemOrderChlnBase" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ActStatus" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ActMessage" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ewbBalanceUpdate" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="APIBalance" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="APIUsage" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="MultyItemPurOrderSalOrderBalance" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ItemDesignColorStockCommonCompany" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ConsumptionCalculationOnSalesBill" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="GDMSReport" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="GDMSType" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="GDMSSubtype" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="GDMSCC" serializeAs="String">
+        <value>0</value>
+      </setting>
+      <setting name="PalluStockGrayJobReceive" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="pallustockOn" serializeAs="String">
+        <value>0</value>
+      </setting>
+    </ERP.Properties.Settings>
+  </userSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientWindowsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" connectionStringName="DefaultConnection" credentialsProvider="" />
+      </providers>
+    </membership>
+    <roleManager enabled="true" defaultProvider="ClientRoleProvider">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" connectionStringName="DefaultConnection" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <!--<entityFramework>
+    -->
+  <!--<providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>-->
+  <!--
+  </entityFramework>
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source = |SQL/CE|" />
+  </connectionStrings>
+<system.data>
+    <DbProviderFactories>
+      <remove invariant="MySql.Data.MySqlClient" />
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    </DbProviderFactories>
+  </system.data>-->
+</configuration>
